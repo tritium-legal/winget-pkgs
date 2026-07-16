@@ -9,14 +9,14 @@ ProductCode: kigo
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kigo/master/windows/kigo-master-854-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 48BD1AEEE30D68B3CABBE72AF4B85BF38485527E102741FCBC97BF4C264822DC
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kigo/master/windows/kigo-master-925-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 56FF8FEEE2C611C4905FA386528F1B9FB55334C27256758B66ACBE1BCA37F59C
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kigo/master/windows/kigo-master-854-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 48BD1AEEE30D68B3CABBE72AF4B85BF38485527E102741FCBC97BF4C264822DC
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kigo/master/windows/kigo-master-925-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 56FF8FEEE2C611C4905FA386528F1B9FB55334C27256758B66ACBE1BCA37F59C
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer

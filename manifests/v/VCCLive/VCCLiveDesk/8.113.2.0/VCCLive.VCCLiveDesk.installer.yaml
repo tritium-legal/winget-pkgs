@@ -1,14 +1,20 @@
-# Created using wingetcreate 1.10.3.0
+# Created using wingetcreate 1.12.8.0
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
 
 PackageIdentifier: VCCLive.VCCLiveDesk
 PackageVersion: 8.113.2.0
 InstallerLocale: en-US
 InstallerType: wix
-ProductCode: '{4CC8E2B0-EBF3-4ACA-AE2B-539C46E905E5}'
+ProductCode: '{EB934B90-9208-4F21-93BC-20403F0D99EB}'
+AppsAndFeaturesEntries:
+- DisplayName: VCC Live Desk
+  Publisher: VCC Live
+  DisplayVersion: 8.117.2.0
+  ProductCode: '{EB934B90-9208-4F21-93BC-20403F0D99EB}'
+  UpgradeCode: '{88F9667F-BD67-4D9B-887C-F08F3728BBB6}'
 Installers:
-- Architecture: x64
+- Architecture: x86
   InstallerUrl: https://storage.googleapis.com/client-installing/WINNT_x86/vcc-client.msi
-  InstallerSha256: 0BCECC01BEE8F8CE9034E876805C5414E4A2B2140CD3E637264C0DACD480CF9C
+  InstallerSha256: 6725231607334B07C245D9BCFBA7F3C719FB779C01A3309A758BEDEBFE66BAFB
 ManifestType: installer
 ManifestVersion: 1.10.0

@@ -9,14 +9,14 @@ ProductCode: lskat
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/lskat/master/windows/lskat-master-848-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: A3652B8D30B2857555F6E6AF3276588C8C65499D641890A974BBB1FB1EC92EA4
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/lskat/master/windows/lskat-master-919-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 18782758EC39182EEFD956B6B7EE91C0B9BF3EFEC3E229E29E8CABDFA0C785C0
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/lskat/master/windows/lskat-master-848-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: A3652B8D30B2857555F6E6AF3276588C8C65499D641890A974BBB1FB1EC92EA4
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/lskat/master/windows/lskat-master-919-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 18782758EC39182EEFD956B6B7EE91C0B9BF3EFEC3E229E29E8CABDFA0C785C0
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
